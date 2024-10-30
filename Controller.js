@@ -14,6 +14,7 @@ const models=require('./models');
 app.get('/',(req,res)=>{
     res.send('Servidor backend já está rodando!');
 });
+
 /* Instanciando modelos de Banco */
 let user=models.User;
 let tracking=models.Tracking;
